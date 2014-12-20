@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		524CB2CE1A4626710091F0CD /* Label.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CB2CC1A4626710091F0CD /* Label.cpp */; };
+		524CB2DD1A462CBF0091F0CD /* Direct_Opcode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CB2CF1A462CBF0091F0CD /* Direct_Opcode.cpp */; };
+		524CB2DE1A462CBF0091F0CD /* Extended_Opcode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CB2D11A462CBF0091F0CD /* Extended_Opcode.cpp */; };
+		524CB2DF1A462CBF0091F0CD /* Immediate_Opcode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CB2D31A462CBF0091F0CD /* Immediate_Opcode.cpp */; };
+		524CB2E01A462CBF0091F0CD /* Indirect_Opcode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CB2D51A462CBF0091F0CD /* Indirect_Opcode.cpp */; };
+		524CB2E11A462CBF0091F0CD /* Inherent_Opcode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CB2D71A462CBF0091F0CD /* Inherent_Opcode.cpp */; };
+		524CB2E21A462CBF0091F0CD /* Opcode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CB2D91A462CBF0091F0CD /* Opcode.cpp */; };
+		524CB2E31A462CBF0091F0CD /* Relative_Opcode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 524CB2DB1A462CBF0091F0CD /* Relative_Opcode.cpp */; };
 		525FB7861A44AA66002BD4B4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 525FB7851A44AA66002BD4B4 /* main.cpp */; };
 		525FB7881A44AA66002BD4B4 /* MC68HC11Assembler.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 525FB7871A44AA66002BD4B4 /* MC68HC11Assembler.1 */; };
 /* End PBXBuildFile section */
@@ -25,6 +33,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		524CB2CC1A4626710091F0CD /* Label.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Label.cpp; sourceTree = "<group>"; };
+		524CB2CD1A4626710091F0CD /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		524CB2CF1A462CBF0091F0CD /* Direct_Opcode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Direct_Opcode.cpp; sourceTree = "<group>"; };
+		524CB2D01A462CBF0091F0CD /* Direct_Opcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Direct_Opcode.h; sourceTree = "<group>"; };
+		524CB2D11A462CBF0091F0CD /* Extended_Opcode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Extended_Opcode.cpp; sourceTree = "<group>"; };
+		524CB2D21A462CBF0091F0CD /* Extended_Opcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extended_Opcode.h; sourceTree = "<group>"; };
+		524CB2D31A462CBF0091F0CD /* Immediate_Opcode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Immediate_Opcode.cpp; sourceTree = "<group>"; };
+		524CB2D41A462CBF0091F0CD /* Immediate_Opcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Immediate_Opcode.h; sourceTree = "<group>"; };
+		524CB2D51A462CBF0091F0CD /* Indirect_Opcode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Indirect_Opcode.cpp; sourceTree = "<group>"; };
+		524CB2D61A462CBF0091F0CD /* Indirect_Opcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Indirect_Opcode.h; sourceTree = "<group>"; };
+		524CB2D71A462CBF0091F0CD /* Inherent_Opcode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Inherent_Opcode.cpp; sourceTree = "<group>"; };
+		524CB2D81A462CBF0091F0CD /* Inherent_Opcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inherent_Opcode.h; sourceTree = "<group>"; };
+		524CB2D91A462CBF0091F0CD /* Opcode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Opcode.cpp; sourceTree = "<group>"; };
+		524CB2DA1A462CBF0091F0CD /* Opcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Opcode.h; sourceTree = "<group>"; };
+		524CB2DB1A462CBF0091F0CD /* Relative_Opcode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Relative_Opcode.cpp; sourceTree = "<group>"; };
+		524CB2DC1A462CBF0091F0CD /* Relative_Opcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Relative_Opcode.h; sourceTree = "<group>"; };
 		525FB7821A44AA66002BD4B4 /* MC68HC11Assembler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MC68HC11Assembler; sourceTree = BUILT_PRODUCTS_DIR; };
 		525FB7851A44AA66002BD4B4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		525FB7871A44AA66002BD4B4 /* MC68HC11Assembler.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MC68HC11Assembler.1; sourceTree = "<group>"; };
@@ -61,8 +85,24 @@
 		525FB7841A44AA66002BD4B4 /* MC68HC11Assembler */ = {
 			isa = PBXGroup;
 			children = (
+				524CB2CF1A462CBF0091F0CD /* Direct_Opcode.cpp */,
+				524CB2D01A462CBF0091F0CD /* Direct_Opcode.h */,
+				524CB2D11A462CBF0091F0CD /* Extended_Opcode.cpp */,
+				524CB2D21A462CBF0091F0CD /* Extended_Opcode.h */,
+				524CB2D31A462CBF0091F0CD /* Immediate_Opcode.cpp */,
+				524CB2D41A462CBF0091F0CD /* Immediate_Opcode.h */,
+				524CB2D51A462CBF0091F0CD /* Indirect_Opcode.cpp */,
+				524CB2D61A462CBF0091F0CD /* Indirect_Opcode.h */,
+				524CB2D71A462CBF0091F0CD /* Inherent_Opcode.cpp */,
+				524CB2D81A462CBF0091F0CD /* Inherent_Opcode.h */,
+				524CB2D91A462CBF0091F0CD /* Opcode.cpp */,
+				524CB2DA1A462CBF0091F0CD /* Opcode.h */,
+				524CB2DB1A462CBF0091F0CD /* Relative_Opcode.cpp */,
+				524CB2DC1A462CBF0091F0CD /* Relative_Opcode.h */,
 				525FB7851A44AA66002BD4B4 /* main.cpp */,
 				525FB7871A44AA66002BD4B4 /* MC68HC11Assembler.1 */,
+				524CB2CC1A4626710091F0CD /* Label.cpp */,
+				524CB2CD1A4626710091F0CD /* Label.h */,
 			);
 			path = MC68HC11Assembler;
 			sourceTree = "<group>";
@@ -118,6 +158,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524CB2CE1A4626710091F0CD /* Label.cpp in Sources */,
+				524CB2DF1A462CBF0091F0CD /* Immediate_Opcode.cpp in Sources */,
+				524CB2E31A462CBF0091F0CD /* Relative_Opcode.cpp in Sources */,
+				524CB2DD1A462CBF0091F0CD /* Direct_Opcode.cpp in Sources */,
+				524CB2E01A462CBF0091F0CD /* Indirect_Opcode.cpp in Sources */,
+				524CB2E11A462CBF0091F0CD /* Inherent_Opcode.cpp in Sources */,
+				524CB2E21A462CBF0091F0CD /* Opcode.cpp in Sources */,
+				524CB2DE1A462CBF0091F0CD /* Extended_Opcode.cpp in Sources */,
 				525FB7861A44AA66002BD4B4 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

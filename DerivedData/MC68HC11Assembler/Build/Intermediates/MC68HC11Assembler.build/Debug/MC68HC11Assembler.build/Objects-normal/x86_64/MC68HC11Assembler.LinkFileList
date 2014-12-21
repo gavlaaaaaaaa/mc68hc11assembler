@@ -1,9 +1,12 @@
 /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.o
 /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.o
 /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.o
+/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/utils.o
 /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.o
 /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.o
 /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.o
 /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.o
 /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.o
+/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Parser.o
+/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Token.o
 /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.o

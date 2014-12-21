@@ -12,40 +12,41 @@
 #include <iostream>
 #include <vector>
 #include <string>
+//#include "utils.h"
+#include "Token.h"
 
-class Opcode{
+
+class Opcode: public Token{
 	
 public:
-	Opcode(){
-		this->name = "";
+	Opcode() : Token(){
 		this->value = 0;
 		this->bit = false;
 		this->branch = false;
 	}
 	
-	Opcode(std::string name, int value, bool bit, bool branch){
-		this->name = name;
+	Opcode(std::string name, int value, bool bit, bool branch): Token(name, ""){
 		this->value = value;
 		this->bit = false;
 		this->branch = false;
 	}
 	
-	void set_name(std::string name);
 	void set_value(int value);
 	void set_bit(bool bit);
 	void set_branch(bool branch);
 	
-	std::string get_name();
 	int get_value();
 	bool get_bit();
 	bool get_branch();
 	
+	
 private:
 	
-	std::string name;
 	int value;
 	bool bit;
 	bool branch;
+	
+	
 	
 	
 };

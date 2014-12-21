@@ -8,10 +8,6 @@
 
 #include "Opcode.h"
 
-void Opcode::set_name(std::string name){
-	this->name = name;
-}
-
 void Opcode::set_value(int value){
 	this->value = value;
 }
@@ -22,10 +18,6 @@ void Opcode::set_bit(bool bit){
 
 void Opcode::set_branch(bool branch){
 	this->branch = branch;
-}
-
-std::string Opcode::get_name(){
-	return this->name;
 }
 
 int Opcode::get_value(){
@@ -39,3 +31,7 @@ bool Opcode::get_bit(){
 bool Opcode::get_branch(){
 	return this->branch;
 }
+
+
+
+

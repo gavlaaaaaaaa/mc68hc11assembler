@@ -11,31 +11,15 @@
 
 #include <iostream>
 #include <string>
+#include "Token.h"
 
-class Label{
+class Label : public Token{
 
 public:
 	
-	Label(){
-#warning TODO: Global counter variable to be used when setting default label name
-		name = "Label1";
-		value = "";
-	}
+	Label(): Token(){}
 	
-	Label(std::string name, std::string value){
-		this->name = name;
-		this->value = value;
-	}
-	
-	void set_name(std::string name);
-	void set_value(int value);
-	
-	std::string get_name();
-	int get_value();
+	Label(std::string name, std::string value): Token(name, value){}
 
-private:
-	
-	std::string name;
-	std::string value;
 };
 #endif /* defined(__MC68HC11Assembler__Label__) */

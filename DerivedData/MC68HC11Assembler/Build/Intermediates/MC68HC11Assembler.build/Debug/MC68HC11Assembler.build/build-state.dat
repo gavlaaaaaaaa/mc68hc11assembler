@@ -5,11 +5,14 @@ cCheck dependencies
 cCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Immediate_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/utils.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Indirect_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Inherent_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Extended_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Parser.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Parser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Token.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/MC68HC11Assembler normal x86_64
 
@@ -28,95 +31,312 @@ c000000005130233600000000000001DE
 t1362109238
 s478
 
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libSystem.dylib
+c00000000523654A7000000000000654C
+t1379292327
+s25932
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libc++.dylib
+c00000000523654A70000000000064CE0
+t1379292327
+s412896
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcache.dylib
+c00000000523654AE0000000000004528
+t1379292334
+s17704
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcommonCrypto.dylib
+c00000000523654AE000000000000EDB8
+t1379292334
+s60856
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcompiler_rt.dylib
+c00000000523654AE000000000000984C
+t1379292334
+s38988
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcopyfile.dylib
+c00000000523654AE0000000000004FEC
+t1379292334
+s20460
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdispatch.dylib
+c00000000513031B30000000000009F64
+t1362112947
+s40804
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdnsinfo.dylib
+c00000000513031B300000000000031D0
+t1362112947
+s12752
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdyld.dylib
+c00000000523654AE00000000000052E4
+t1379292334
+s21220
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libkeymgr.dylib
+c00000000513031B30000000000002D34
+t1362112947
+s11572
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/liblaunch.dylib
+c00000000523654AE00000000000084E8
+t1379292334
+s34024
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libmacho.dylib
+c00000000523654AE0000000000004FF4
+t1379292334
+s20468
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libquarantine.dylib
+c00000000513031B300000000000047A4
+t1362112947
+s18340
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libremovefile.dylib
+c00000000513031B30000000000004364
+t1362112947
+s17252
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_blocks.dylib
+c00000000513031B30000000000002EF0
+t1362112947
+s12016
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_c.dylib
+c00000000523654AE0000000000046BB8
+t1379292334
+s289720
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_dnssd.dylib
+c00000000513031B400000000000067BC
+t1362112948
+s26556
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_info.dylib
+c00000000523654AF000000000001AD9C
+t1379292335
+s109980
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_kernel.dylib
+c00000000523654AF0000000000016C74
+t1379292335
+s93300
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_m.dylib
+c00000000513031B4000000000000F204
+t1362112948
+s61956
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_network.dylib
+c00000000513031B40000000000008EC8
+t1362112948
+s36552
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_notify.dylib
+c00000000513031B40000000000008B14
+t1362112948
+s35604
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_sandbox.dylib
+c00000000513031B400000000000047C0
+t1362112948
+s18368
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunc.dylib
+c00000000513031B400000000000044D8
+t1362112948
+s17624
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunwind.dylib
+c00000000513031B400000000000067AC
+t1362112948
+s26540
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libxpc.dylib
+c00000000523654AF0000000000011E4C
+t1379292335
+s73292
+
+N/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+c0000000052364DC90000000000001750
+t1379290569
+s5968
+
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.o
-t1419113796
+t1419168351
 s1944
 
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.o
-t1419113796
+t1419168351
 s1948
 
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.o
-t1419113796
-s35332
+t1419168351
+s35676
 
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.o
-t1419113796
-s35336
+t1419168351
+s35672
 
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.o
-t1419113796
+t1419168351
 s1948
 
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.o
-t1419113796
+t1419166920
 s1928
 
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/MC68HC11Assembler.LinkFileList
-c000000005495F54300000000000006BC
-t1419113795
-s1724
+c000000005496C4C800000000000008E8
+t1419166920
+s2280
 
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.o
-t1419113796
-s37392
+t1419168351
+s36632
+
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Parser.o
+t1419168847
+s249756
 
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.o
-t1419113796
+t1419168351
 s1948
 
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Token.o
+t1419166921
+s35948
+
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.o
-t1419113797
+t1419166921
 s67928
 
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/utils.o
+t1419168689
+s1928
+
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/MC68HC11Assembler
-t2
-s0
+t1419168689
+s46240
 
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.cpp
-c000000005495F47800000000000000B4
-t1419113592
+c000000005495FF5900000000000000B4
+t1419116377
 s180
 
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.h
+c000000005495FF590000000000000215
+t1419116377
+s533
+
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Extended_Opcode.cpp
-c000000005495F47800000000000000B8
-t1419113592
+c000000005495FF5900000000000000B8
+t1419116377
 s184
+
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Extended_Opcode.h
+c000000005495FF59000000000000020D
+t1419116377
+s525
 
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Immediate_Opcode.cpp
-c000000005495F478000000000000014E
-t1419113592
+c000000005495FF59000000000000014E
+t1419116377
 s334
 
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Immediate_Opcode.h
+c000000005495FF5900000000000002AF
+t1419116377
+s687
+
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Indirect_Opcode.cpp
-c000000005495F478000000000000014A
-t1419113592
+c000000005495FF59000000000000014A
+t1419116377
 s330
 
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Indirect_Opcode.h
+c000000005495FF5900000000000002BC
+t1419116377
+s700
+
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Inherent_Opcode.cpp
-c000000005495F47800000000000000B9
-t1419113592
+c000000005495FF5900000000000000B9
+t1419116377
 s185
 
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Inherent_Opcode.h
+c000000005495FF59000000000000020E
+t1419116377
+s526
+
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp
-c000000005495EEF000000000000000A4
-t1419112176
+c000000005495FF5900000000000000A4
+t1419116377
 s164
 
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.h
+c000000005496BB2200000000000001CA
+t1419164450
+s458
+
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.cpp
-c000000005495F4780000000000000261
-t1419113592
-s609
+c000000005496C45100000000000001EF
+t1419166801
+s495
+
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.h
+c000000005496CA5E0000000000000356
+t1419168350
+s854
+
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Parser.cpp
+c000000005496CC4F000000000000031B
+t1419168847
+s795
+
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Parser.h
+c000000005496CBA7000000000000028A
+t1419168679
+s650
 
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.cpp
-c000000005495F47800000000000000B8
-t1419113592
+c000000005495FF5900000000000000B8
+t1419116377
 s184
+
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.h
+c000000005495FF59000000000000020C
+t1419116377
+s524
+
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.cpp
+c000000005496B94C0000000000000194
+t1419163980
+s404
+
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.h
+c000000005496C048000000000000028F
+t1419165768
+s655
 
 N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/main.cpp
 c00000000549472E60000000000000120
 t1419014886
 s288
+
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/utils.cpp
+c000000005496CBB00000000000000171
+t1419168688
+s369
+
+N/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/utils.h
+c000000005496CBA700000000000001EA
+t1419168679
+s490
 
 CBuild AST from /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.cpp
 r0
@@ -139,19 +359,28 @@ r0
 CBuild AST from /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.cpp
 r0
 
+CBuild AST from /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Parser.cpp
+r0
+
 CBuild AST from /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.cpp
+r0
+
+CBuild AST from /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.cpp
 r0
 
 CBuild AST from /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/main.cpp
 r0
 
+CBuild AST from /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/utils.cpp
+r0
+
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4947a1c32c46ba41^dac5acc32c46ba41^---0#1#1#--18"Check dependencies36"213973F9-263E-41DB-963E-CB8C97867E63-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies551308cf0347ba41^145c08cf0347ba41^---0#1#1#--18"Check dependencies36"CB98084E-CA3B-4B74-8EB8-47EBC9FFFCF0-
 
 CCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s440806595.677514
-e440806596.344597
+s440861150.694131
+e440861151.110227
 r1
 xCompileC
 xDerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.o
@@ -163,12 +392,13 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.cpp
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.h
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.cpp248"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.o MC68HC11Assembler/Direct_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc783adc32c46ba41^093858c42c46ba41^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.cpp0000000000000000^3674"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.o MC68HC11Assembler/Direct_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.o36"BC7DC345-D914-4872-9983-E39AB7D96398-
-b9100737A-F73F-490E-8FF4-EC0E611F2790
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.cpp248"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.o MC68HC11Assembler/Direct_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler5dc2b1de0147ba41^5c381cdf0147ba41^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.cpp0000000000000000^3674"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.o MC68HC11Assembler/Direct_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.o36"B598251D-48C1-4683-B97F-3DEE6F0D7DD1-
+b17D8C2AB-D7AD-4313-B886-DDA356001374
 
 CCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Extended_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s440806596.377366
-e440806596.766323
+s440861151.186238
+e440861151.592176
 r1
 xCompileC
 xDerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.o
@@ -180,12 +410,13 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Extended_Opcode.cpp
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Extended_Opcode.h
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Extended_Opcode.cpp252"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.o MC68HC11Assembler/Extended_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilera7ae60c42c46ba41^662ec4c42c46ba41^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Extended_Opcode.cpp0000000000000000^3686"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.o MC68HC11Assembler/Extended_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Extended_Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.o36"6900139C-57AC-481F-84D2-DA729BC141B7-
-b9100737A-F73F-490E-8FF4-EC0E611F2790
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Extended_Opcode.cpp252"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.o MC68HC11Assembler/Extended_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler1adf2fdf0147ba41^3d9997df0147ba41^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Extended_Opcode.cpp0000000000000000^3686"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.o MC68HC11Assembler/Extended_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Extended_Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.o36"ABDC3C46-B6C4-412B-A3DB-DF938FFACCAC-
+b17D8C2AB-D7AD-4313-B886-DDA356001374
 
 CCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Immediate_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s440806595.676038
-e440806596.376015
+s440861150.693526
+e440861151.120981
 r1
 xCompileC
 xDerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.o
@@ -197,12 +428,13 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Immediate_Opcode.cpp
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Immediate_Opcode.h
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Immediate_Opcode.cpp254"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.o MC68HC11Assembler/Immediate_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerbc21adc32c46ba41^2d4360c42c46ba41^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Immediate_Opcode.cpp0000000000000000^3692"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.o MC68HC11Assembler/Immediate_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Immediate_Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.o36"F9C9F16E-1C88-4A76-A5BF-08D905F2981D-
-b9100737A-F73F-490E-8FF4-EC0E611F2790
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Immediate_Opcode.cpp254"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.o MC68HC11Assembler/Immediate_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler2aa7b1de0147ba41^01f91edf0147ba41^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Immediate_Opcode.cpp0000000000000000^3692"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.o MC68HC11Assembler/Immediate_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Immediate_Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.o36"3B161B58-ACDB-4053-810C-B8CBEF544F70-
+b17D8C2AB-D7AD-4313-B886-DDA356001374
 
 CCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Indirect_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s440806596.264874
-e440806596.735827
+s440861151.111610
+e440861151.557221
 r1
 xCompileC
 xDerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.o
@@ -214,12 +446,13 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Indirect_Opcode.cpp
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Indirect_Opcode.h
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Indirect_Opcode.cpp252"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.o MC68HC11Assembler/Indirect_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler0de243c42c46ba41^4359bcc42c46ba41^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Indirect_Opcode.cpp0000000000000000^3686"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.o MC68HC11Assembler/Indirect_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Indirect_Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.o36"B96B8A5F-8160-460E-B4F1-DED085E36E6C-
-b9100737A-F73F-490E-8FF4-EC0E611F2790
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Indirect_Opcode.cpp252"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.o MC68HC11Assembler/Indirect_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilercea51cdf0147ba41^00ac8edf0147ba41^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Indirect_Opcode.cpp0000000000000000^3686"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.o MC68HC11Assembler/Indirect_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Indirect_Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.o36"9A59590E-693A-48A4-8421-E72EA3A052AD-
+b17D8C2AB-D7AD-4313-B886-DDA356001374
 
 CCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Inherent_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s440806596.332119
-e440806596.751065
+s440861151.117593
+e440861151.549090
 r1
 xCompileC
 xDerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.o
@@ -231,12 +464,13 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Inherent_Opcode.cpp
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Inherent_Opcode.h
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Inherent_Opcode.cpp252"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.o MC68HC11Assembler/Inherent_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerf01955c42c46ba41^8446c0c42c46ba41^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Inherent_Opcode.cpp0000000000000000^3686"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.o MC68HC11Assembler/Inherent_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Inherent_Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.o36"899845D6-C593-450E-92E4-88746B8B54BF-
-b9100737A-F73F-490E-8FF4-EC0E611F2790
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Inherent_Opcode.cpp252"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.o MC68HC11Assembler/Inherent_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler51311edf0147ba41^04928cdf0147ba41^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Inherent_Opcode.cpp0000000000000000^3686"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.o MC68HC11Assembler/Inherent_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Inherent_Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.o36"68646998-39E7-4D7E-ABCF-3FC1A987BBD8-
+b17D8C2AB-D7AD-4313-B886-DDA356001374
 
 CCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s440806595.675438
-e440806596.263561
+s440859720.547125
+e440859720.922323
 r1
 xCompileC
 xDerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.o
@@ -247,17 +481,13 @@ xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.h
-oIn file included from /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp:9:
-o/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.h:20:2: warning: TODO: Global counter variable to be used when setting default label name [-W#warnings]
-o#warning TODO: Global counter variable to be used when setting default label name
-o ^
-o1 warning generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp232"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.o MC68HC11Assembler/Label.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerf8fcacc32c46ba41^467843c42c46ba41^-389"In file included from /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp:9:/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.h:20:2: warning: TODO: Global counter variable to be used when setting default label name [-W#warnings]#warning TODO: Global counter variable to be used when setting default label name ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@72"TODO: Global counter variable to be used when setting default label name-440806596#18446744073709551615#0#1(2@103"In file included from /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp:9:-440806596#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@85"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp0000000000000000^8#9#8#9#154#0#21"Apple LLVM 5.0 Notice--1#27"com.apple.dt.IDE.diagnostic3@83"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.h0000000000000000^19#1#19#1#292#0#18"#warning Directive--0#0#1#-19%DVTDocumentLocation4@85"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp0000000000000000^3626"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.o MC68HC11Assembler/Label.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.o36"782F7897-52D6-4780-A7D4-B7F58AF7B6A1-
-b9100737A-F73F-490E-8FF4-EC0E611F2790
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp232"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.o MC68HC11Assembler/Label.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler68228c48fc46ba41^bd1eec48fc46ba41^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp0000000000000000^3626"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.o MC68HC11Assembler/Label.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Label.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.o36"6464149A-FBEF-44F0-B701-683DED6698E7-
+bDA33B2DF-0293-425D-86E8-2B0AA490F4B5
 
 CCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s440806596.347003
-e440806596.762564
+s440861151.122296
+e440861151.558105
 r1
 xCompileC
 xDerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.o
@@ -268,12 +498,37 @@ xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.cpp
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.cpp234"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.o MC68HC11Assembler/Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerabeb58c42c46ba41^3f38c3c42c46ba41^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.cpp0000000000000000^3632"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.o MC68HC11Assembler/Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.o36"1C4F6554-966F-4D0B-8981-E7A25E6FA79B-
-b9100737A-F73F-490E-8FF4-EC0E611F2790
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.cpp234"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.o MC68HC11Assembler/Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerdd611fdf0147ba41^6ee08edf0147ba41^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.cpp0000000000000000^3632"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.o MC68HC11Assembler/Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.o36"1537DAF5-464F-4E34-8210-C49C9460B265-
+b17D8C2AB-D7AD-4313-B886-DDA356001374
+
+CCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Parser.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Parser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s440861647.034339
+e440861647.563869
+r1
+xCompileC
+xDerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Parser.o
+x/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Parser.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Parser.cpp
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Parser.h
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.h
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.h
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Immediate_Opcode.h
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Indirect_Opcode.h
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Direct_Opcode.h
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Extended_Opcode.h
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Inherent_Opcode.h
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Parser.cpp234"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Parser.o MC68HC11Assembler/Parser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler66dc08cf0347ba41^5b5b90cf0347ba41^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Parser.cpp0000000000000000^3632"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Parser.o MC68HC11Assembler/Parser.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Parser.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Parser.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Parser.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Parser.o36"F30E57F9-049C-4D61-BEF5-8622DFCC7EA2-
+bB3301206-A3CD-42A2-879F-730F3395CBFE
 
 CCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s440806595.676259
-e440806596.330695
+s440861150.693703
+e440861151.116168
 r1
 xCompileC
 xDerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.o
@@ -285,12 +540,29 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.cpp
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.h
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Opcode.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.cpp252"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.o MC68HC11Assembler/Relative_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilere030adc32c46ba41^e3a854c42c46ba41^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.cpp0000000000000000^3686"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.o MC68HC11Assembler/Relative_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.o36"6C0F1E87-F80D-4CB2-BBC2-409A929E1582-
-b9100737A-F73F-490E-8FF4-EC0E611F2790
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.cpp252"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.o MC68HC11Assembler/Relative_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerb0cab1de0147ba41^b6bd1ddf0147ba41^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.cpp0000000000000000^3686"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.o MC68HC11Assembler/Relative_Opcode.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Relative_Opcode.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.o36"F3B9D5A6-4A91-4D9A-8EE6-1EBC631DE2BE-
+b17D8C2AB-D7AD-4313-B886-DDA356001374
+
+CCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Token.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s440859721.443262
+e440859721.818737
+r1
+xCompileC
+xDerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Token.o
+x/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.cpp
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.cpp232"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Token.o MC68HC11Assembler/Token.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerb08c7149fc46ba41^9a99d149fc46ba41^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.cpp0000000000000000^3626"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Token.o MC68HC11Assembler/Token.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Token.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Token.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/Token.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Token.o36"A3666B2E-26A8-4DA9-838A-A8CC732EEFD6-
+bDA33B2DF-0293-425D-86E8-2B0AA490F4B5
 
 CCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s440806596.737065
-e440806597.079549
+s440859721.448691
+e440859721.836526
 r1
 xCompileC
 xDerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.o
@@ -300,12 +572,28 @@ xx86_64
 xc++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/main.cpp
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/main.cpp230"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.o MC68HC11Assembler/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler09c3bcc42c46ba41^af5f14c52c46ba41^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/main.cpp0000000000000000^3620"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.o MC68HC11Assembler/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/main.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.o36"53B3C796-7D39-4652-9F8E-EAD042DA7581-
-b9100737A-F73F-490E-8FF4-EC0E611F2790
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/main.cpp230"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.o MC68HC11Assembler/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc7f27249fc46ba41^b326d649fc46ba41^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/main.cpp0000000000000000^3620"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.o MC68HC11Assembler/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/main.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.o36"0F6757A7-AC57-4B22-9D0C-C810657FAB62-
+bDA33B2DF-0293-425D-86E8-2B0AA490F4B5
+
+CCompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/utils.o /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s440861488.927240
+e440861489.292097
+r1
+xCompileC
+xDerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/utils.o
+x/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/utils.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/utils.cpp
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/utils.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/utils.cpp232"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/utils.o MC68HC11Assembler/utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerfa7bed300347ba41^d6c84a310347ba41^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/utils.cpp0000000000000000^3626"CompileC DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/utils.o MC68HC11Assembler/utils.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv LANG en_US.US-ASCII    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-generated-files.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-own-target-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-all-target-headers.hmap -iquote /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/MC68HC11Assembler-project-headers.hmap -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/include -I/Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources/x86_64 -I/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/DerivedSources -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -MMD -MT dependencies -MF /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/utils.d --serialize-diagnostics /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/utils.dia -c /Users/Gav/Documents/Programming/MC68HC11Assembler/MC68HC11Assembler/utils.cpp -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/utils.o36"804EB594-3F3C-4D54-9A98-6302D253622E-
+b18CC763B-E20F-4511-AF97-214415753EAF
 
 CLd /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/MC68HC11Assembler normal x86_64
-s440806597.081391
-e440806597.100516
+s440861647.566097
+e440861647.585368
 r1
 xLd
 x/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/MC68HC11Assembler
@@ -315,11 +603,14 @@ d/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assemble
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Label.o
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Immediate_Opcode.o
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Relative_Opcode.o
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/utils.o
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Direct_Opcode.o
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Indirect_Opcode.o
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Inherent_Opcode.o
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Opcode.o
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Extended_Opcode.o
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Parser.o
+d/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/Token.o
 d/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/main.o
 d/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libc++.dylib
 d/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libSystem.dylib
@@ -348,6 +639,6 @@ d/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platfor
 d/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunc.dylib
 d/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libxpc.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/MC68HC11Assembler85"Ld DerivedData/MC68HC11Assembler/Build/Products/Debug/MC68HC11Assembler normal x86_6432e414c52c46ba41^56bc19c52c46ba41^---0#0#1#--1270"Ld DerivedData/MC68HC11Assembler/Build/Products/Debug/MC68HC11Assembler normal x86_64    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -filelist /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/MC68HC11Assembler.LinkFileList -mmacosx-version-min=10.8 -stdlib=libc++ -Xlinker -dependency_info -Xlinker /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/MC68HC11Assembler_dependency_info.dat -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/MC68HC11Assembler36"5FC1BCC6-4928-4B6B-A276-7EB28F48E35A-
-b9100737A-F73F-490E-8FF4-EC0E611F2790
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Link /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/MC68HC11Assembler85"Ld DerivedData/MC68HC11Assembler/Build/Products/Debug/MC68HC11Assembler normal x86_6494f890cf0347ba41^51dc95cf0347ba41^---0#0#1#--1270"Ld DerivedData/MC68HC11Assembler/Build/Products/Debug/MC68HC11Assembler normal x86_64    cd /Users/Gav/Documents/Programming/MC68HC11Assembler    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Programming/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Programming/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -F/Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug -filelist /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/MC68HC11Assembler.LinkFileList -mmacosx-version-min=10.8 -stdlib=libc++ -Xlinker -dependency_info -Xlinker /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Intermediates/MC68HC11Assembler.build/Debug/MC68HC11Assembler.build/Objects-normal/x86_64/MC68HC11Assembler_dependency_info.dat -o /Users/Gav/Documents/Programming/MC68HC11Assembler/DerivedData/MC68HC11Assembler/Build/Products/Debug/MC68HC11Assembler36"09EC8F74-7DCE-424C-B5E3-BA5806C0B989-
+bB3301206-A3CD-42A2-879F-730F3395CBFE
 

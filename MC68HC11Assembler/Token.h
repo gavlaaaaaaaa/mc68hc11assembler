@@ -26,6 +26,15 @@ public:
 		this->value = value;
 	}
 	
+	bool operator==(Token& rhs){
+		if(this->get_name() == rhs.get_name()){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	
 	void set_name(std::string name);
 	void set_value(std::string value);
 	

@@ -21,6 +21,15 @@ public:
 	
 	Inherent_Opcode(std::string name, int value) : Opcode(name, value, false, false){}
 	
+	bool operator==(Opcode& rhs){
+		if(this->get_name() == rhs.get_name()){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
+	
 };
 
 #endif /* defined(__MC68HC11Assembler__Inherent_Opcode__) */

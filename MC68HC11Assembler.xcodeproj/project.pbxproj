@@ -94,6 +94,20 @@
 		525FB7841A44AA66002BD4B4 /* MC68HC11Assembler */ = {
 			isa = PBXGroup;
 			children = (
+				52D5E4731A476A1000052D0F /* Token */,
+				525FB7851A44AA66002BD4B4 /* main.cpp */,
+				525FB7871A44AA66002BD4B4 /* MC68HC11Assembler.1 */,
+				521C26821A46ED86002D5642 /* Parser.cpp */,
+				521C26831A46ED86002D5642 /* Parser.h */,
+				521C26881A46F02C002D5642 /* utils.cpp */,
+				521C26891A46F02C002D5642 /* utils.h */,
+			);
+			path = MC68HC11Assembler;
+			sourceTree = "<group>";
+		};
+		52D5E4731A476A1000052D0F /* Token */ = {
+			isa = PBXGroup;
+			children = (
 				524CB2CF1A462CBF0091F0CD /* Direct_Opcode.cpp */,
 				524CB2D01A462CBF0091F0CD /* Direct_Opcode.h */,
 				524CB2D11A462CBF0091F0CD /* Extended_Opcode.cpp */,
@@ -108,18 +122,12 @@
 				524CB2DA1A462CBF0091F0CD /* Opcode.h */,
 				524CB2DB1A462CBF0091F0CD /* Relative_Opcode.cpp */,
 				524CB2DC1A462CBF0091F0CD /* Relative_Opcode.h */,
-				525FB7851A44AA66002BD4B4 /* main.cpp */,
-				525FB7871A44AA66002BD4B4 /* MC68HC11Assembler.1 */,
 				524CB2CC1A4626710091F0CD /* Label.cpp */,
 				524CB2CD1A4626710091F0CD /* Label.h */,
-				521C26821A46ED86002D5642 /* Parser.cpp */,
-				521C26831A46ED86002D5642 /* Parser.h */,
 				521C26851A46EE1B002D5642 /* Token.cpp */,
 				521C26861A46EE1B002D5642 /* Token.h */,
-				521C26881A46F02C002D5642 /* utils.cpp */,
-				521C26891A46F02C002D5642 /* utils.h */,
 			);
-			path = MC68HC11Assembler;
+			name = Token;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

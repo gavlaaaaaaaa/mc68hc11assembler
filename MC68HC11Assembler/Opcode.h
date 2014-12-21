@@ -12,7 +12,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
-//#include "utils.h"
+#include "utils.h"
 #include "Token.h"
 
 
@@ -25,10 +25,19 @@ public:
 		this->branch = false;
 	}
 	
-	Opcode(std::string name, int value, bool bit, bool branch): Token(name, ""){
+	Opcode(std::string name, int value, bool bit, bool branch): Token(name, utils::int2hex(value)){
 		this->value = value;
 		this->bit = false;
 		this->branch = false;
+	}
+	
+	bool operator==(Opcode& rhs){
+		if(this->get_name() == rhs.get_name()){
+			return true;
+		}
+		else{
+			return false;
+		}
 	}
 	
 	void set_value(int value);

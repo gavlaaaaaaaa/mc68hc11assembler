@@ -22,9 +22,13 @@ namespace utils{
 	
 
 	/* Converts an integer into a hex string */
-	template< typename T>
-	std::string int2hex( T i);
+	std::string int2hex( int i);
 	
+	/* removes leading and trailing whitespace from string */
+	std::string trim(const std::string& str, const std::string& whitespace = " \t");
+	
+	/* splits string up by whitespace into vector */
+	std::vector<std::string> split(const std::string &s, char delim, std::vector<std::string> &elems);
 	
 }
 

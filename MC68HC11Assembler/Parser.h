@@ -10,6 +10,8 @@
 #define __MC68HC11Assembler__Parser__
 
 #include <iostream>
+#include <fstream>
+#include "Token.h"
 #include "Opcode.h"
 #include "Immediate_Opcode.h"
 #include "Indirect_Opcode.h"
@@ -18,17 +20,22 @@
 #include "Inherent_Opcode.h"
 #include "Relative_Opcode.h"
 
+
 class Parser{
 	
 public:
 	
-	Parser(){}
+	Parser(){ initialise_instruction_set(); }
 	
+	void parse_file(std::ifstream &file);
 private:
 	
-	void parse_line(std::string line);
+	std::vector< std::shared_ptr<Opcode> > instruction_set;
+	std::vector< std::shared_ptr<Token> > tokens;
 	
-	std::vector< std::shared_ptr<Opcode> > initialise_instruction_set();
+	
+	void parse_line(std::string line);
+	void initialise_instruction_set();
 };
 
 #endif /* defined(__MC68HC11Assembler__Parser__) */

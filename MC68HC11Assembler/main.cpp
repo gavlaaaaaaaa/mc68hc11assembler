@@ -7,12 +7,14 @@
 //
 
 #include <iostream>
+#include <fstream>
+#include "Parser.h"
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+	std::ifstream file("/Users/Gav/Documents/Programming/MC68HC11Assembler/exampleprog.txt");
+	Parser parser;
+	parser.parse_file(file);
+    
 }
 

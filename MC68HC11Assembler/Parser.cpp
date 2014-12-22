@@ -46,10 +46,21 @@ void Parser::parse_line(std::string line){
 	
 	if(length == 1){
 		/* Inherent Opcode or Branch Label */
-		auto it = std::find(instruction_set.begin(), instruction_set.end(), std::make_shared<Inherent_Opcode>("ABA", 0));
+		auto it = std::find(instruction_set.begin(), instruction_set.end(), std::make_shared<Inherent_Opcode>(line_tokens[0], 0));
 		if(it != instruction_set.end()){
 			/* Inherent Opcode found, add to tokens and continue */
 			std::cout << *it << std::endl;
+		}
+		else{
+			/* Label as address found, calculate address and store in tokens vector */
+			//warning: TODO - calculate current address
+			std::shared_ptr<Label> lbl = std::make_shared<Label>(line_tokens[0], "0x1000");
+			Tokens.push_back(lbl);
+		}
+	}
+	else if(length == 2){
+		if(utils::to_upper(line_tokens[0]) == "ORG"){
+			/* ORG statement */
 		}
 	}
 	

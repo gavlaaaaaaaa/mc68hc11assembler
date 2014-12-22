@@ -36,3 +36,8 @@ std::vector<std::string> utils::split(const std::string &s, char delim, std::vec
     }
     return elems;
 }
+
+std::string utils::to_upper(std::string str){
+	for (auto & c: str) c = toupper(c);
+	return c;
+}
